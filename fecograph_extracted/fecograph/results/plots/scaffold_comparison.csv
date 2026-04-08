@@ -1,0 +1,5 @@
+Method,BMTA (%),Best F1 (%)
+FedAvg+SupCon,98.09,95.98
+Ditto+SupCon,98.12,96.3
+SCAFFOLD (CE only),65.09,45.1
+SCAFFOLD+SupCon,89.35,68.73

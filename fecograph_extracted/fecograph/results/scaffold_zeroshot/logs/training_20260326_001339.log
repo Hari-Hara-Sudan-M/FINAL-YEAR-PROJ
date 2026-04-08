@@ -1,0 +1,78 @@
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] SCAFFOLD + ZERO-SHOT NOVELTY DETECTION
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] Run started at: 2026-03-26 00:13:39
+[SCAFFOLD-ZEROSHOT] Run ID: 20260326_001339
+[SCAFFOLD-ZEROSHOT] Log file: results\scaffold_zeroshot\logs\training_20260326_001339.log
+[SCAFFOLD-ZEROSHOT] Holdout classes: ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] Training rounds: 50
+[SCAFFOLD-ZEROSHOT] Local epochs: 5
+[SCAFFOLD-ZEROSHOT] Device: cpu
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] 
+1. Loading data with holdout filtering...
+[SCAFFOLD-ZEROSHOT]   First pass: Determining common seen classes...
+[SCAFFOLD-ZEROSHOT]     Client 0 has 8 seen classes: [0, 1, 4, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]     Client 1 has 11 seen classes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]   Common seen classes (8): [0, 1, 4, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]   Second pass: Loading data with common class filtering...
+[SCAFFOLD-ZEROSHOT]   Client 0: Train 25353 -> 25352 (removed 1 samples)
+[SCAFFOLD-ZEROSHOT]   Client 1: Train 4646 -> 4554 (removed 92 samples)
+[SCAFFOLD-ZEROSHOT] 
+  Seen classes (8): ['Benign', 'Bot', 'DDoS-HOIC', 'DDoS-LOIC-HTTP', 'DoS-GoldenEye', 'DoS-Hulk', 'Infilteration', 'SSH-Bruteforce']
+[SCAFFOLD-ZEROSHOT]   Holdout classes (3): ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] 
+2. Initializing SCAFFOLD models...
+[SCAFFOLD-ZEROSHOT]   Model parameters: 59,176
+[SCAFFOLD-ZEROSHOT] 
+3. Starting SCAFFOLD training...
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] Round  10/50 | Loss=6.4310 | Acc(seen)=0.0001 | F1(seen)=0.0000 | Best=0.0001 | 93.7s
+[SCAFFOLD-ZEROSHOT] Round  20/50 | Loss=6.4315 | Acc(seen)=0.0001 | F1(seen)=0.0000 | Best=0.0001 | 38.0s
+[SCAFFOLD-ZEROSHOT] Round  30/50 | Loss=6.4344 | Acc(seen)=0.0001 | F1(seen)=0.0000 | Best=0.0001 | 49.8s
+[SCAFFOLD-ZEROSHOT] Round  40/50 | Loss=6.4339 | Acc(seen)=0.0001 | F1(seen)=0.0000 | Best=0.0001 | 42.5s
+[SCAFFOLD-ZEROSHOT] Round  50/50 | Loss=6.4328 | Acc(seen)=0.0001 | F1(seen)=0.0000 | Best=0.0001 | 46.2s
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] SCAFFOLD training complete. Best seen accuracy: 0.0001
+[SCAFFOLD-ZEROSHOT] 
+4. Loading best model checkpoint...
+[SCAFFOLD-ZEROSHOT]   Loaded checkpoint from round 2 (Acc=0.0001)
+[SCAFFOLD-ZEROSHOT] 
+5. Computing class prototypes from training data...
+[SCAFFOLD-ZEROSHOT]   Computed 8 prototypes: [0, 1, 4, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT] 
+6. Running zero-shot evaluation...
+[SCAFFOLD-ZEROSHOT] 
+===========================================================================
+[SCAFFOLD-ZEROSHOT] ZERO-SHOT EVALUATION RESULTS
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT]   Seen Class Accuracy:      0.8614
+[SCAFFOLD-ZEROSHOT]   Seen Class Precision:     0.1651
+[SCAFFOLD-ZEROSHOT]   Seen Class Recall:        0.3608
+[SCAFFOLD-ZEROSHOT]   Seen Class F1:            0.1772
+[SCAFFOLD-ZEROSHOT]   ---
+[SCAFFOLD-ZEROSHOT]   Novelty Detection Prec:   0.0003
+[SCAFFOLD-ZEROSHOT]   Novelty Detection Recall: 1.0000
+[SCAFFOLD-ZEROSHOT]   Novelty Detection F1:     0.0007
+[SCAFFOLD-ZEROSHOT]   ---
+[SCAFFOLD-ZEROSHOT]   Combined Accuracy:        0.5260
+[SCAFFOLD-ZEROSHOT]   Optimal Threshold:        0.8500
+[SCAFFOLD-ZEROSHOT]   ---
+[SCAFFOLD-ZEROSHOT]   Seen samples:    59150
+[SCAFFOLD-ZEROSHOT]   Unseen samples:  9
+[SCAFFOLD-ZEROSHOT]   Seen sim:        0.8551 ± 0.0671
+[SCAFFOLD-ZEROSHOT]   Unseen sim:      0.8238 ± 0.0306
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] 
+7. Generating visualization...
+[SCAFFOLD-ZEROSHOT]   Generating t-SNE visualization...
+[SCAFFOLD-ZEROSHOT]   Saved: results\scaffold_zeroshot\scaffold_zeroshot_tsne.png
+[SCAFFOLD-ZEROSHOT] 
+8. Saving results...
+[SCAFFOLD-ZEROSHOT]   Results saved: results\scaffold_zeroshot\scaffold_zeroshot_results.json
+[SCAFFOLD-ZEROSHOT]   Visualization: results\scaffold_zeroshot\scaffold_zeroshot_tsne.png
+[SCAFFOLD-ZEROSHOT]   Checkpoint: results\scaffold_zeroshot\checkpoints/global_model_best.pt
+[SCAFFOLD-ZEROSHOT] 
+===========================================================================
+[SCAFFOLD-ZEROSHOT] SCAFFOLD + ZERO-SHOT NOVELTY DETECTION COMPLETE
+[SCAFFOLD-ZEROSHOT] ===========================================================================

@@ -1,0 +1,26 @@
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] SCAFFOLD + ZERO-SHOT NOVELTY DETECTION
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] Run started at: 2026-03-25 23:55:13
+[SCAFFOLD-ZEROSHOT] Run ID: 20260325_235513
+[SCAFFOLD-ZEROSHOT] Log file: results\scaffold_zeroshot\logs\training_20260325_235513.log
+[SCAFFOLD-ZEROSHOT] Holdout classes: ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] Training rounds: 50
+[SCAFFOLD-ZEROSHOT] Local epochs: 5
+[SCAFFOLD-ZEROSHOT] Device: cpu
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] 
+1. Loading data with holdout filtering...
+[SCAFFOLD-ZEROSHOT]   Client 0: Train 25353 -> 25352 (removed 1 holdout samples)
+[SCAFFOLD-ZEROSHOT]   Client 0: Test 59159 samples
+[SCAFFOLD-ZEROSHOT]   Client 1: Train 4646 -> 4562 (removed 84 holdout samples)
+[SCAFFOLD-ZEROSHOT]   Client 1: Test 10842 samples
+[SCAFFOLD-ZEROSHOT] 
+  Seen classes (8): ['Benign', 'Bot', 'DDoS-HOIC', 'DDoS-LOIC-HTTP', 'DoS-GoldenEye', 'DoS-Hulk', 'Infilteration', 'SSH-Bruteforce']
+[SCAFFOLD-ZEROSHOT]   Holdout classes (3): ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] 
+2. Initializing SCAFFOLD models...
+[SCAFFOLD-ZEROSHOT]   Model parameters: 59,176
+[SCAFFOLD-ZEROSHOT] 
+3. Starting SCAFFOLD training...
+[SCAFFOLD-ZEROSHOT] ===========================================================================

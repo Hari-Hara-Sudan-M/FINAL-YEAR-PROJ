@@ -1,0 +1,11 @@
+[CLIENT-0-SCAFFOLD] Run started at: 2026-03-26 12:06:10
+[CLIENT-0-SCAFFOLD] Run ID: 20260326_120610
+[CLIENT-0-SCAFFOLD] Log file: results\scaffold_multiclass_supcon\logs\client_0_20260326_120610.log
+[CLIENT-0-SCAFFOLD] ============================================================
+[CLIENT-0-SCAFFOLD] FeCoGraph SCAFFOLD Client 0
+[CLIENT-0-SCAFFOLD] Contrastive mode: supcon
+[CLIENT-0-SCAFFOLD] Device: cpu
+[CLIENT-0-SCAFFOLD] ============================================================
+[CLIENT-0-SCAFFOLD] Train: 25,353 | Test: 59,159 | Labeled: 7602
+[CLIENT-0-SCAFFOLD] Connecting to server 127.0.0.1:9999...
+[CLIENT-0-SCAFFOLD] Connected and registered.

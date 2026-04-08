@@ -1,0 +1,29 @@
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] SCAFFOLD + ZERO-SHOT NOVELTY DETECTION
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] Run started at: 2026-03-26 00:07:49
+[SCAFFOLD-ZEROSHOT] Run ID: 20260326_000749
+[SCAFFOLD-ZEROSHOT] Log file: results\scaffold_zeroshot\logs\training_20260326_000749.log
+[SCAFFOLD-ZEROSHOT] Holdout classes: ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] Training rounds: 50
+[SCAFFOLD-ZEROSHOT] Local epochs: 5
+[SCAFFOLD-ZEROSHOT] Device: cpu
+[SCAFFOLD-ZEROSHOT] ===========================================================================
+[SCAFFOLD-ZEROSHOT] 
+1. Loading data with holdout filtering...
+[SCAFFOLD-ZEROSHOT]   First pass: Determining common seen classes...
+[SCAFFOLD-ZEROSHOT]     Client 0 has 8 seen classes: [0, 1, 4, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]     Client 1 has 11 seen classes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]   Common seen classes (8): [0, 1, 4, 6, 7, 8, 12, 14]
+[SCAFFOLD-ZEROSHOT]   Second pass: Loading data with common class filtering...
+[SCAFFOLD-ZEROSHOT]   Client 0: Train 25353 -> 25352 (removed 1 samples)
+[SCAFFOLD-ZEROSHOT]   Client 1: Train 4646 -> 4554 (removed 92 samples)
+[SCAFFOLD-ZEROSHOT] 
+  Seen classes (8): ['Benign', 'Bot', 'DDoS-HOIC', 'DDoS-LOIC-HTTP', 'DoS-GoldenEye', 'DoS-Hulk', 'Infilteration', 'SSH-Bruteforce']
+[SCAFFOLD-ZEROSHOT]   Holdout classes (3): ['DoS-SlowHTTPTest', 'DoS-Slowloris', 'FTP-BruteForce']
+[SCAFFOLD-ZEROSHOT] 
+2. Initializing SCAFFOLD models...
+[SCAFFOLD-ZEROSHOT]   Model parameters: 59,176
+[SCAFFOLD-ZEROSHOT] 
+3. Starting SCAFFOLD training...
+[SCAFFOLD-ZEROSHOT] ===========================================================================

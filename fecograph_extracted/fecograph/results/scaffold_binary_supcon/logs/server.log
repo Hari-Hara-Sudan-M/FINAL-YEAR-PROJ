@@ -1,0 +1,25 @@
+[SERVER-SCAFFOLD] Run started at: 2026-03-23 10:03:29
+[SERVER-SCAFFOLD] Contrastive mode: supcon
+[SERVER-SCAFFOLD] SCAFFOLD Server listening on 0.0.0.0:9999
+[SERVER-SCAFFOLD] Waiting for 2 clients...
+[SERVER-SCAFFOLD]   Client 0 registered from ('127.0.0.1', 52611)
+[SERVER-SCAFFOLD]   Client 1 registered from ('127.0.0.1', 51173)
+[SERVER-SCAFFOLD] All 2 clients connected. Starting SCAFFOLD training...
+[SERVER-SCAFFOLD] =================================================================
+[SERVER-SCAFFOLD] Round  10/100 | SupCon=6.8612 | CE=0.6254 | Acc_L=0.5257 | Acc_P=0.9613 | F1_P=0.8089 | BMTA_P=0.9613 | 37.6s
+[SERVER-SCAFFOLD] Round  20/100 | SupCon=6.8607 | CE=0.6151 | Acc_L=0.5617 | Acc_P=0.9691 | F1_P=0.8301 | BMTA_P=0.9701 | 37.5s
+[SERVER-SCAFFOLD] Round  30/100 | SupCon=6.8596 | CE=0.6134 | Acc_L=0.5908 | Acc_P=0.9732 | F1_P=0.9065 | BMTA_P=0.9732 | 38.3s
+[SERVER-SCAFFOLD] Round  40/100 | SupCon=6.8596 | CE=0.6074 | Acc_L=0.6861 | Acc_P=0.9730 | F1_P=0.8986 | BMTA_P=0.9732 | 85.2s
+[SERVER-SCAFFOLD] Round  50/100 | SupCon=6.8592 | CE=0.6056 | Acc_L=0.7825 | Acc_P=0.9723 | F1_P=0.8809 | BMTA_P=0.9740 | 91.7s
+[SERVER-SCAFFOLD] Round  60/100 | SupCon=6.8586 | CE=0.6046 | Acc_L=0.8071 | Acc_P=0.9730 | F1_P=0.8901 | BMTA_P=0.9776 | 37.8s
+[SERVER-SCAFFOLD] Round  70/100 | SupCon=6.8585 | CE=0.5981 | Acc_L=0.8082 | Acc_P=0.9714 | F1_P=0.8707 | BMTA_P=0.9776 | 42.3s
+[SERVER-SCAFFOLD] Round  80/100 | SupCon=6.8586 | CE=0.5994 | Acc_L=0.8006 | Acc_P=0.9723 | F1_P=0.8814 | BMTA_P=0.9783 | 46.0s
+[SERVER-SCAFFOLD] Round  90/100 | SupCon=6.8593 | CE=0.5985 | Acc_L=0.8066 | Acc_P=0.9780 | F1_P=0.9089 | BMTA_P=0.9783 | 46.1s
+[SERVER-SCAFFOLD] Round 100/100 | SupCon=6.8588 | CE=0.5991 | Acc_L=0.8135 | Acc_P=0.9740 | F1_P=0.9023 | BMTA_P=0.9791 | 46.8s
+[SERVER-SCAFFOLD] =================================================================
+[SERVER-SCAFFOLD] SCAFFOLD + PERSONALIZATION TRAINING COMPLETE
+[SERVER-SCAFFOLD]   BMTA (Local):        0.8935
+[SERVER-SCAFFOLD]   BMTA (Personalized): 0.9791
+[SERVER-SCAFFOLD]   Final checkpoint saved.
+[SERVER-SCAFFOLD]   History saved: results\scaffold_binary_supcon\logs\training_history.csv
+[SERVER-SCAFFOLD] Server shut down cleanly.

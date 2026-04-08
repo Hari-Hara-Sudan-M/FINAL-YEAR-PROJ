@@ -1,0 +1,24 @@
+{
+  "fc_accuracy": 0.9995,
+  "fc_f1": 0.9737,
+  "prototype_accuracy": 0.9899,
+  "prototype_f1": 0.7423,
+  "accuracy_improvement": -0.95,
+  "novelty_threshold": 0.97,
+  "novelty_detection_f1": 0.0001,
+  "seen_attacks": [
+    "Benign",
+    "Bot",
+    "DDoS-HOIC",
+    "DDoS-LOIC-HTTP",
+    "DoS-GoldenEye",
+    "DoS-Hulk",
+    "FTP-BruteForce",
+    "Infilteration",
+    "SSH-Bruteforce"
+  ],
+  "unseen_attacks": [
+    "DoS-SlowHTTPTest",
+    "DoS-Slowloris"
+  ]
+}

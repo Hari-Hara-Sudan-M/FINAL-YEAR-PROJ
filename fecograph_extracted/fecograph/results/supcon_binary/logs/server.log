@@ -1,0 +1,84 @@
+2026-03-10 14:31:30,734 [SERVER] Server listening on 0.0.0.0:9999
+2026-03-10 14:31:30,734 [SERVER] Waiting for 2 clients to connect...
+2026-03-10 20:29:54,269 [SERVER] Server listening on 0.0.0.0:9999
+2026-03-10 20:29:54,269 [SERVER] Waiting for 2 clients to connect...
+2026-03-10 20:34:35,807 [SERVER]   Client 0 registered from ('127.0.0.1', 53051)
+2026-03-10 20:34:44,417 [SERVER]   Client 1 registered from ('127.0.0.1', 53094)
+2026-03-10 20:34:44,417 [SERVER] All 2 clients connected.
+2026-03-10 20:34:44,417 [SERVER] FL Scheme : DITTO
+2026-03-10 20:34:44,417 [SERVER] Rounds    : 100
+2026-03-10 20:34:44,462 [SERVER] =================================================================
+2026-03-10 20:35:21,904 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:35:21,907 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:36:01,579 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:36:01,592 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:36:39,719 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:36:39,722 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:37:17,914 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:37:17,916 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:37:56,652 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:37:56,654 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:38:34,854 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:38:34,858 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:39:13,121 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:39:13,125 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:39:51,298 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:40:29,841 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:41:08,485 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:41:08,490 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:41:08,490 [SERVER] Round  10/100 | Clients=2 | SupCon=6.6984 | CE=0.2266 | Acc_local=0.9687 | F1_local=0.9124 | Acc_pers=0.9605 | F1_pers=0.8020 | BMTA_pers=0.9605 | Time=38.6s
+2026-03-10 20:41:46,255 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:42:41,917 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:43:31,043 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:43:31,045 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:44:09,231 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:44:09,233 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:44:46,440 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:45:23,129 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:46:02,016 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:46:40,823 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:46:40,825 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:47:19,671 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:47:58,358 [SERVER] Round  20/100 | Clients=2 | SupCon=6.6723 | CE=0.1502 | Acc_local=0.9767 | F1_local=0.9464 | Acc_pers=0.9648 | F1_pers=0.8376 | BMTA_pers=0.9674 | Time=38.7s
+2026-03-10 20:48:36,401 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:50:31,576 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:51:10,747 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:51:10,751 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:51:48,958 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 20:51:48,962 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:52:27,768 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:53:42,942 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:54:20,273 [SERVER] Round  30/100 | Clients=2 | SupCon=6.6636 | CE=0.1086 | Acc_local=0.9806 | F1_local=0.9595 | Acc_pers=0.9704 | F1_pers=0.8652 | BMTA_pers=0.9723 | Time=37.3s
+2026-03-10 20:55:35,096 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:58:10,508 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 20:59:44,226 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:02:50,757 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:04:24,038 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:05:37,618 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:06:23,111 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:06:23,113 [SERVER] Round  40/100 | Clients=2 | SupCon=6.6591 | CE=0.0778 | Acc_local=0.9806 | F1_local=0.9602 | Acc_pers=0.9800 | F1_pers=0.9447 | BMTA_pers=0.9800 | Time=45.5s
+2026-03-10 21:07:07,659 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 21:07:47,177 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:08:23,901 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:09:35,672 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:11:23,742 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:12:40,576 [SERVER] Round  50/100 | Clients=2 | SupCon=6.6563 | CE=0.0613 | Acc_local=0.9807 | F1_local=0.9618 | Acc_pers=0.9805 | F1_pers=0.9502 | BMTA_pers=0.9806 | Time=40.2s
+2026-03-10 21:13:56,287 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:15:51,220 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 21:18:58,522 [SERVER] Round  60/100 | Clients=2 | SupCon=6.6553 | CE=0.0531 | Acc_local=0.9808 | F1_local=0.9609 | Acc_pers=0.9807 | F1_pers=0.9585 | BMTA_pers=0.9809 | Time=37.9s
+2026-03-10 21:22:09,246 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:22:46,841 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 21:25:17,783 [SERVER] Round  70/100 | Clients=2 | SupCon=6.6517 | CE=0.0467 | Acc_local=0.9808 | F1_local=0.9594 | Acc_pers=0.9807 | F1_pers=0.9571 | BMTA_pers=0.9810 | Time=38.3s
+2026-03-10 21:26:34,968 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 21:26:34,973 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_pers.pt
+2026-03-10 21:29:48,896 [SERVER]   Checkpoint saved: ./checkpoints\global_model_best_local.pt
+2026-03-10 21:31:42,486 [SERVER] Round  80/100 | Clients=2 | SupCon=6.6530 | CE=0.0429 | Acc_local=0.9807 | F1_local=0.9611 | Acc_pers=0.9808 | F1_pers=0.9620 | BMTA_pers=0.9812 | Time=37.9s
+2026-03-10 21:38:07,075 [SERVER] Round  90/100 | Clients=2 | SupCon=6.6516 | CE=0.0399 | Acc_local=0.9809 | F1_local=0.9624 | Acc_pers=0.9808 | F1_pers=0.9613 | BMTA_pers=0.9812 | Time=39.2s
+2026-03-10 21:44:30,488 [SERVER] Round 100/100 | Clients=2 | SupCon=6.6492 | CE=0.0374 | Acc_local=0.9809 | F1_local=0.9614 | Acc_pers=0.9808 | F1_pers=0.9628 | BMTA_pers=0.9812 | Time=39.2s
+2026-03-10 21:44:30,488 [SERVER] =================================================================
+2026-03-10 21:44:30,499 [SERVER] TRAINING COMPLETE
+2026-03-10 21:44:30,499 [SERVER]   BMTA (Local model)       : 0.9812
+2026-03-10 21:44:30,499 [SERVER]   BMTA (Personalized model): 0.9812
+2026-03-10 21:44:30,501 [SERVER]   Checkpoint saved: ./checkpoints\global_model_final.pt
+2026-03-10 21:44:30,505 [SERVER]   Training history saved: ./logs\training_history.csv
+2026-03-10 21:44:30,505 [SERVER] Server shut down cleanly.

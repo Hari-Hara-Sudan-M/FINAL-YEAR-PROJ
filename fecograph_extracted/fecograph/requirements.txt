@@ -1,0 +1,23 @@
+# FeCoGraph Requirements
+# Python version: 3.8.x  (paper uses 3.8.8)
+# Install with: pip install -r requirements.txt
+
+# Core deep learning
+torch==1.13.0
+torchvision==0.14.0
+
+# Graph neural networks (paper uses DGL 1.2 + PyG 2.3)
+dgl==1.1.3                  # DGL stable for Python 3.8 / torch 1.13
+torch-geometric==2.3.0
+torch-scatter==2.1.1+pt113cpu
+torch-sparse==0.6.17+pt113cpu
+torch-cluster==1.6.1+pt113cpu
+
+# Data processing
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Utilities
+tqdm==4.65.0
+matplotlib==3.7.1
