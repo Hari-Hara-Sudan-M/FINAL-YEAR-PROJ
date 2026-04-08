@@ -1,0 +1,3 @@
+Method,Accuracy,Precision,Recall,F1
+Run Result (Avg Client),0.979761,0.955174,0.970014,0.961713
+Novelty Result (Zero-Shot),0.525989,0.000338,1.000000,0.000676

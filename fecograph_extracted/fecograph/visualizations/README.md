@@ -61,6 +61,28 @@ The script generates 6 comprehensive visualizations:
 - Table showing which attacks are in seen vs holdout classes
 - **Best for documentation and explaining experiment setup**
 
+---
+
+## ✅ Final Result Graph (Novelty vs Run Result)
+
+To generate a single final comparison graph for **Accuracy, Precision, Recall, F1**:
+
+```bash
+cd /home/runner/work/FINAL-YEAR-PROJ/FINAL-YEAR-PROJ/fecograph_extracted/fecograph/visualizations
+python plot_final_novelty_vs_run.py
+```
+
+Outputs:
+- `/home/runner/work/FINAL-YEAR-PROJ/FINAL-YEAR-PROJ/fecograph_extracted/fecograph/results/plots/final_novelty_vs_run_metrics.png`
+- `/home/runner/work/FINAL-YEAR-PROJ/FINAL-YEAR-PROJ/fecograph_extracted/fecograph/results/plots/final_novelty_vs_run_metrics.csv`
+
+Data used:
+- Run result: average of
+  - `results/labelprop_0p3_binary/checkpoints/client_0_detailed_metrics.json`
+  - `results/labelprop_0p3_binary/checkpoints/client_1_detailed_metrics.json`
+- Novelty result:
+  - `results/scaffold_zeroshot/scaffold_zeroshot_results.json`
+
 ## 📋 Output Format
 
 All plots are saved as high-resolution PNG files (300 DPI) suitable for:
