@@ -24,6 +24,7 @@ from config.config import (
 from models.model import FeCoGraphModel
 from fl.federated import server_aggregate
 from fl.comm import send_object, recv_object, make_message, MsgType
+from utils.security import isolated_bind_host
 
 RESULT_DIR = os.path.join("results", f"scaffold_{CLASSIFICATION_MODE}_{CONTRASTIVE_MODE}")
 RESULT_LOG_DIR = os.path.join(RESULT_DIR, "logs")
@@ -71,10 +72,11 @@ def main():
 
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_sock.bind((SERVER_HOST, SERVER_PORT))
+    bind_host = isolated_bind_host(SERVER_HOST)
+    server_sock.bind((bind_host, SERVER_PORT))
     server_sock.listen(NUM_CLIENTS + 2)
 
-    log.info(f"SCAFFOLD Server listening on {SERVER_HOST}:{SERVER_PORT}")
+    log.info(f"SCAFFOLD Server listening on {bind_host}:{SERVER_PORT}")
     log.info(f"Waiting for {NUM_CLIENTS} clients...")
 
     while len(client_conns) < NUM_CLIENTS:

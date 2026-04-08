@@ -39,6 +39,7 @@ from fl.federated import evaluate_model, server_aggregate, compute_class_weights
 from fl.comm import send_object, recv_object, make_message, MsgType
 from data.line_graph import csv_to_line_graph
 from data.augmentation import augment_graph
+from utils.security import isolated_bind_host
 
 RESULT_DIR = os.path.join("results", "scaffold_binary")
 RESULT_LOG_DIR = os.path.join(RESULT_DIR, "logs")
@@ -246,7 +247,7 @@ def server_worker(port):
 
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_sock.bind(("0.0.0.0", port)); server_sock.listen(5)
+    server_sock.bind((isolated_bind_host("0.0.0.0"), port)); server_sock.listen(5)
     log.info(f"SCAFFOLD Server on port {port}")
 
     while len(client_conns) < NUM_CLIENTS:

@@ -32,6 +32,7 @@ from models.model import FeCoGraphModel, PersonalizedModel
 from fl.federated import local_train_client, evaluate_model, server_aggregate
 from fl.comm import send_object, recv_object, make_message, MsgType
 from data.line_graph import csv_to_line_graph
+from utils.security import isolated_bind_host
 
 PROP_VALUES = [0.1, 0.3, 0.5, 0.7]
 BASE_PORT = 9970
@@ -192,7 +193,7 @@ def server_worker(port, result_log_dir, result_ckpt_dir, prop_val, mode):
 
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_sock.bind(("0.0.0.0", port)); server_sock.listen(5)
+    server_sock.bind((isolated_bind_host("0.0.0.0"), port)); server_sock.listen(5)
     log.info(f"LabelProp={prop_val} mode={mode} Server on port {port}")
 
     while len(client_conns) < NUM_CLIENTS:

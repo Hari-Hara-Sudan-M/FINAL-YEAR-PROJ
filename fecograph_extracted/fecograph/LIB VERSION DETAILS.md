@@ -236,4 +236,4 @@ python client.py --client_id 1 --server_ip 192.168.1.100
 → `pip install dgl==1.1.3 -f https://data.dgl.ai/wheels/repo.html`
 
 **DGL security advisory (no patched release yet)**
-→ Do not enable DGL RPC features and do not deserialize untrusted inputs.
+→ Runtime now blocks DGL RPC/distributed imports. Set `FECOGRAPH_COMM_SECRET` on server/clients and keep loopback-only mode unless `FECOGRAPH_ALLOW_REMOTE_NETWORK=1` is explicitly required.

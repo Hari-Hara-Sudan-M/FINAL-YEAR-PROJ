@@ -23,6 +23,7 @@ from models.model import FeCoGraphModel
 from fl.federated import local_train_client, evaluate_model, server_aggregate
 from fl.comm import send_object, recv_object, make_message, MsgType
 from data.line_graph import csv_to_line_graph
+from utils.security import isolated_bind_host
 
 RESULT_DIR = os.path.join("results", "fedavg_binary")
 RESULT_LOG_DIR = os.path.join(RESULT_DIR, "logs")
@@ -141,7 +142,7 @@ def server_worker(port):
 
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_sock.bind(("0.0.0.0", port)); server_sock.listen(NUM_CLIENTS + 2)
+    server_sock.bind((isolated_bind_host("0.0.0.0"), port)); server_sock.listen(NUM_CLIENTS + 2)
     log.info(f"FedAvg Server on port {port} | Waiting for {NUM_CLIENTS} clients...")
 
     while len(client_conns) < NUM_CLIENTS:

@@ -140,7 +140,7 @@ dgl==1.1.3
 tqdm
 ```
 
-> Security note: `dgl` currently has a published advisory with no patched release available upstream. Avoid enabling DGL RPC features and do not deserialize untrusted inputs while this dependency remains in use.
+> Security note: `dgl` currently has a published advisory with no patched release available upstream. This project now hard-disables DGL RPC/distributed imports at runtime, requires authenticated FL socket payloads via `FECOGRAPH_COMM_SECRET`, and defaults to loopback-only network binding unless `FECOGRAPH_ALLOW_REMOTE_NETWORK=1` is explicitly set.
 
 ---
 
@@ -197,6 +197,9 @@ The LDA split ensures **non-IID** distribution (different attack distributions p
 Open 3 terminals in the project directory:
 
 ```bash
+# Required for authenticated model/metric transport (same value in all terminals)
+export FECOGRAPH_COMM_SECRET="replace-with-strong-shared-secret"
+
 # Terminal 1: Start server
 python server.py
 
@@ -211,12 +214,21 @@ python client.py --client_id 1 --server_ip 127.0.0.1
 
 ```bash
 # Laptop 1 (Server machine):
+# Required on all 3 laptops (same value everywhere):
+export FECOGRAPH_COMM_SECRET="replace-with-strong-shared-secret"
+
+# Explicit opt-in to remote network use (default runtime mode is loopback-only):
+export FECOGRAPH_ALLOW_REMOTE_NETWORK=1
 python server.py
 
 # Laptop 2 (Client 0) — replace IP with server laptop's IP:
+export FECOGRAPH_COMM_SECRET="replace-with-strong-shared-secret"
+export FECOGRAPH_ALLOW_REMOTE_NETWORK=1
 python client.py --client_id 0 --server_ip 192.168.x.x
 
 # Laptop 3 (Client 1) — replace IP with server laptop's IP:
+export FECOGRAPH_COMM_SECRET="replace-with-strong-shared-secret"
+export FECOGRAPH_ALLOW_REMOTE_NETWORK=1
 python client.py --client_id 1 --server_ip 192.168.x.x
 ```
 

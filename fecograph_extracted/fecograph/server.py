@@ -20,6 +20,7 @@ from config.config import (
 from models.model import FeCoGraphModel
 from fl.federated import server_aggregate
 from fl.comm import send_object, recv_object, make_message, MsgType
+from utils.security import isolated_bind_host
 
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(CHECKPOINT_DIR, exist_ok=True)
@@ -62,10 +63,11 @@ class FLServer:
     def start(self):
         server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        server_sock.bind((SERVER_HOST, SERVER_PORT))
+        bind_host = isolated_bind_host(SERVER_HOST)
+        server_sock.bind((bind_host, SERVER_PORT))
         server_sock.listen(NUM_CLIENTS + 2)
 
-        log.info(f"Server listening on {SERVER_HOST}:{SERVER_PORT}")
+        log.info(f"Server listening on {bind_host}:{SERVER_PORT}")
         log.info(f"Waiting for {NUM_CLIENTS} clients to connect...")
 
         while len(self.client_conns) < NUM_CLIENTS:

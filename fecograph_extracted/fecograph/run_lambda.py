@@ -27,6 +27,7 @@ from models.model import FeCoGraphModel, PersonalizedModel
 from fl.federated import local_train_client, evaluate_model, server_aggregate
 from fl.comm import send_object, recv_object, make_message, MsgType
 from data.line_graph import csv_to_line_graph
+from utils.security import isolated_bind_host
 
 MODE = "multiclass"  # Paper Table IV is multiclass
 NC = NUM_CLASSES_MULTI
@@ -119,7 +120,7 @@ def server_worker(port, result_log_dir, result_ckpt_dir, lam_val):
 
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_sock.bind(("0.0.0.0", port)); server_sock.listen(5)
+    server_sock.bind((isolated_bind_host("0.0.0.0"), port)); server_sock.listen(5)
     log.info(f"Lambda={lam_val} Server on port {port}")
 
     while len(client_conns) < NUM_CLIENTS:

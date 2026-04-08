@@ -38,6 +38,7 @@ from fl.federated import (
 from fl.comm import send_object, recv_object, make_message, MsgType
 from data.line_graph import csv_to_line_graph
 from data.augmentation import augment_graph
+from utils.security import isolated_connect_host
 
 RESULT_DIR = os.path.join("results", f"scaffold_{CLASSIFICATION_MODE}_{CONTRASTIVE_MODE}")
 RESULT_LOG_DIR = os.path.join(RESULT_DIR, "logs")
@@ -187,7 +188,7 @@ def main():
     ).to(device)
     c_local = {n: torch.zeros_like(p.data) for n, p in local_model.named_parameters()}
 
-    connect_ip = "127.0.0.1" if args.server_ip == "0.0.0.0" else args.server_ip
+    connect_ip = isolated_connect_host(args.server_ip)
     log.info(f"Connecting to server {connect_ip}:{args.server_port}...")
     while True:
         try:

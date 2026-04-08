@@ -20,7 +20,7 @@ CLIENT_FRACTION = 1.0            # Fraction of clients selected per round
 # ─────────────────────────────────────────────
 # NETWORK SETTINGS (Server ↔ Clients)
 # ─────────────────────────────────────────────
-SERVER_HOST = "0.0.0.0"          # Server listens on all interfaces
+SERVER_HOST = "0.0.0.0"          # Runtime now enforces loopback by default unless FECOGRAPH_ALLOW_REMOTE_NETWORK=1
 SERVER_PORT = 9999
 # On client machines, set SERVER_HOST to the server's IP address
 # e.g., SERVER_HOST = "192.168.1.100"
