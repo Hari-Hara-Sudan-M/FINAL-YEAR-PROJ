@@ -107,23 +107,23 @@ fecograph/
 ## 3. Environment Setup
 
 ### Requirements
-- Python 3.8
-- PyTorch 1.13.0
-- DGL 1.1.2
+- Python 3.10+
+- PyTorch 2.6.0
+- DGL 1.1.3
 - 3 laptops connected on the same LAN (or same machine for testing)
 
 ### Install dependencies
 
 ```bash
 # Create and activate environment
-conda create -n feco_env python=3.8
+conda create -n feco_env python=3.10
 conda activate feco_env
 
 # Install PyTorch (CPU)
-pip install torch==1.13.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu
 
 # Install DGL (CPU)
-pip install dgl==1.1.2 -f https://data.dgl.ai/wheels/repo.html
+pip install dgl==1.1.3 -f https://data.dgl.ai/wheels/repo.html
 
 # Install remaining packages
 pip install -r requirements.txt
@@ -135,10 +135,12 @@ pip install -r requirements.txt
 numpy
 pandas
 scikit-learn
-torch==1.13.0
-dgl==1.1.2
+torch==2.6.0
+dgl==1.1.3
 tqdm
 ```
+
+> Security note: `dgl` currently has a published advisory with no patched release available upstream. Avoid enabling DGL RPC features and do not deserialize untrusted inputs while this dependency remains in use.
 
 ---
 

@@ -52,10 +52,10 @@ source feco_env/bin/activate       # Linux/Mac
 ```bash
 pip install --upgrade pip
 
-# Install PyTorch 1.13 (CPU-only — works on all laptops)
-pip install torch==1.13.0 torchvision==0.14.0 --index-url https://download.pytorch.org/whl/cpu
+# Install PyTorch 2.6 (CPU-only)
+pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cpu
 
-# Install DGL for PyTorch 1.13 + CPU
+# Install DGL (CPU)
 pip install dgl==1.1.3 -f https://data.dgl.ai/wheels/repo.html
 
 # Install PyTorch Geometric
@@ -234,3 +234,6 @@ python client.py --client_id 1 --server_ip 192.168.1.100
 
 **DGL version conflict**
 → `pip install dgl==1.1.3 -f https://data.dgl.ai/wheels/repo.html`
+
+**DGL security advisory (no patched release yet)**
+→ Do not enable DGL RPC features and do not deserialize untrusted inputs.
