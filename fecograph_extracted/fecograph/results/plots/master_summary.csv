@@ -1,0 +1,26 @@
+Experiment,BMTA (%),Best F1 (%)
+fedavg_binary,98.09,95.98
+labelprop_0p1_binary,97.77,94.73
+labelprop_0p1_multiclass,93.22,58.98
+labelprop_0p3_binary,98.11,96.38
+labelprop_0p3_multiclass,96.2,64.38
+labelprop_0p5_binary,98.13,96.41
+labelprop_0p5_multiclass,96.36,65.46
+labelprop_0p7_binary,98.14,96.17
+labelprop_0p7_multiclass,94.68,66.84
+lambda_0p01,98.02,96.11
+lambda_0p03,98.08,96.39
+lambda_0p05,98.07,96.35
+lambda_0p07,98.07,96.37
+lambda_0p1,98.05,96.15
+lambda_0p5,98.08,96.38
+scaffold_binary,97.75,92.92
+scaffold_binary_supcon,97.91,93.39
+sslcon_binary,98.04,96.08
+sslcon_supcon,98.13,96.37
+supcon_binary,98.12,96.3
+temp_0p1,98.07,96.14
+temp_0p3,98.07,96.25
+temp_0p5,98.07,96.3
+temp_0p7,98.06,96.43
+temp_0p9,98.06,96.38

@@ -1,0 +1,17 @@
+[CLIENT-1-SCAFFOLD] Run started at: 2026-03-26 12:07:29
+[CLIENT-1-SCAFFOLD] Run ID: 20260326_120729
+[CLIENT-1-SCAFFOLD] Log file: results\scaffold_multiclass_supcon\logs\client_1_20260326_120729.log
+[CLIENT-1-SCAFFOLD] ============================================================
+[CLIENT-1-SCAFFOLD] FeCoGraph SCAFFOLD Client 1
+[CLIENT-1-SCAFFOLD] Contrastive mode: supcon
+[CLIENT-1-SCAFFOLD] Device: cpu
+[CLIENT-1-SCAFFOLD] ============================================================
+[CLIENT-1-SCAFFOLD] Train: 4,646 | Test: 10,842 | Labeled: 1389
+[CLIENT-1-SCAFFOLD] Connecting to server 127.0.0.1:9999...
+[CLIENT-1-SCAFFOLD] Connected and registered.
+[CLIENT-1-SCAFFOLD]   Round 1 | Loss=5.9240 | Acc(G)=0.0025 | Acc(P)=0.0285 | F1(P)=0.0298 | Time=6.2s
+[CLIENT-1-SCAFFOLD]   Round 2 | Loss=6.2549 | Acc(G)=0.1692 | Acc(P)=0.0595 | F1(P)=0.1356 | Time=6.0s
+[CLIENT-1-SCAFFOLD]   Round 3 | Loss=5.6846 | Acc(G)=0.0032 | Acc(P)=0.0499 | F1(P)=0.1175 | Time=6.0s
+[CLIENT-1-SCAFFOLD]   Round 4 | Loss=6.2554 | Acc(G)=0.1732 | Acc(P)=0.0396 | F1(P)=0.1096 | Time=5.9s
+[CLIENT-1-SCAFFOLD]   Round 5 | Loss=5.6791 | Acc(G)=0.0033 | Acc(P)=0.0387 | F1(P)=0.1033 | Time=8.1s
+[CLIENT-1-SCAFFOLD]   Round 6 | Loss=6.2531 | Acc(G)=0.1739 | Acc(P)=0.0379 | F1(P)=0.1149 | Time=5.9s

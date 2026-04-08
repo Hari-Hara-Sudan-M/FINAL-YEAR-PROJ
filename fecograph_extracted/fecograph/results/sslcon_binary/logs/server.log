@@ -1,0 +1,21 @@
+2026-03-10 22:25:33,437 [SERVER] SSLCon Server on port 9998 | Waiting for 2 clients...
+2026-03-10 22:25:40,928 [SERVER]   Client 1 registered from ('127.0.0.1', 61570)
+2026-03-10 22:25:42,208 [SERVER]   Client 0 registered from ('127.0.0.1', 61572)
+2026-03-10 22:25:42,208 [SERVER] All 2 clients connected. Starting SSLCon training...
+2026-03-10 22:25:42,208 [SERVER] =================================================================
+2026-03-10 22:31:56,687 [SERVER] Round  10/100 | SSLCon=6.7041 | CE=0.2712 | Acc_L=0.9641 | F1_L=0.8558 | Acc_P=0.9540 | F1_P=0.7736 | BMTA_P=0.9540 | 37.7s
+2026-03-10 22:38:21,487 [SERVER] Round  20/100 | SSLCon=6.6778 | CE=0.1866 | Acc_L=0.9731 | F1_L=0.9278 | Acc_P=0.9672 | F1_P=0.8146 | BMTA_P=0.9672 | 39.6s
+2026-03-10 22:44:51,536 [SERVER] Round  30/100 | SSLCon=6.6647 | CE=0.1361 | Acc_L=0.9793 | F1_L=0.9322 | Acc_P=0.9754 | F1_P=0.8431 | BMTA_P=0.9776 | 38.5s
+2026-03-10 22:51:22,755 [SERVER] Round  40/100 | SSLCon=6.6648 | CE=0.1001 | Acc_L=0.9791 | F1_L=0.9354 | Acc_P=0.9770 | F1_P=0.8715 | BMTA_P=0.9794 | 38.7s
+2026-03-10 22:57:54,966 [SERVER] Round  50/100 | SSLCon=6.6591 | CE=0.0782 | Acc_L=0.9793 | F1_L=0.9434 | Acc_P=0.9796 | F1_P=0.9417 | BMTA_P=0.9801 | 39.2s
+2026-03-10 23:04:27,533 [SERVER] Round  60/100 | SSLCon=6.6556 | CE=0.0628 | Acc_L=0.9794 | F1_L=0.9470 | Acc_P=0.9799 | F1_P=0.9576 | BMTA_P=0.9801 | 39.1s
+2026-03-10 23:10:58,331 [SERVER] Round  70/100 | SSLCon=6.6553 | CE=0.0591 | Acc_L=0.9789 | F1_L=0.9354 | Acc_P=0.9801 | F1_P=0.9511 | BMTA_P=0.9801 | 39.0s
+2026-03-10 23:17:28,852 [SERVER] Round  80/100 | SSLCon=6.6546 | CE=0.0496 | Acc_L=0.9791 | F1_L=0.9360 | Acc_P=0.9801 | F1_P=0.9505 | BMTA_P=0.9802 | 38.3s
+2026-03-10 23:23:53,142 [SERVER] Round  90/100 | SSLCon=6.6532 | CE=0.0501 | Acc_L=0.9791 | F1_L=0.9412 | Acc_P=0.9801 | F1_P=0.9608 | BMTA_P=0.9804 | 38.5s
+2026-03-10 23:30:12,841 [SERVER] Round 100/100 | SSLCon=6.6525 | CE=0.0475 | Acc_L=0.9791 | F1_L=0.9390 | Acc_P=0.9796 | F1_P=0.9601 | BMTA_P=0.9804 | 38.2s
+2026-03-10 23:30:12,841 [SERVER] =================================================================
+2026-03-10 23:30:12,841 [SERVER] SSLCon TRAINING COMPLETE
+2026-03-10 23:30:12,841 [SERVER]   BMTA (Local):       0.9802
+2026-03-10 23:30:12,851 [SERVER]   BMTA (Personalized): 0.9804
+2026-03-10 23:30:12,859 [SERVER]   History saved: results\sslcon_binary\logs\training_history.csv
+2026-03-10 23:30:12,859 [SERVER] Server shut down.

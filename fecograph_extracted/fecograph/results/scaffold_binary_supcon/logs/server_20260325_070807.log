@@ -1,0 +1,6 @@
+[SERVER-SCAFFOLD] Run started at: 2026-03-25 07:08:07
+[SERVER-SCAFFOLD] Run ID: 20260325_070807
+[SERVER-SCAFFOLD] Log file: results\scaffold_binary_supcon\logs\server_20260325_070807.log
+[SERVER-SCAFFOLD] Contrastive mode: supcon
+[SERVER-SCAFFOLD] SCAFFOLD Server listening on 0.0.0.0:9999
+[SERVER-SCAFFOLD] Waiting for 2 clients...

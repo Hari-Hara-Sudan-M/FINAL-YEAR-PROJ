@@ -1,0 +1,111 @@
+[CLIENT-0-SCAFFOLD] Run started at: 2026-03-23 10:03:54
+[CLIENT-0-SCAFFOLD] ============================================================
+[CLIENT-0-SCAFFOLD] FeCoGraph SCAFFOLD Client 0
+[CLIENT-0-SCAFFOLD] Contrastive mode: supcon
+[CLIENT-0-SCAFFOLD] Device: cpu
+[CLIENT-0-SCAFFOLD] ============================================================
+[CLIENT-0-SCAFFOLD] Train: 25,353 | Test: 59,159 | Labeled: 7604
+[CLIENT-0-SCAFFOLD] Connecting to server 127.0.0.1:9999...
+[CLIENT-0-SCAFFOLD] Connected and registered.
+[CLIENT-0-SCAFFOLD]   Round 1 | Loss=6.4973 | Acc(G)=0.0132 | Acc(P)=0.0176 | F1(P)=0.0176 | Time=39.5s
+[CLIENT-0-SCAFFOLD]   Round 2 | Loss=6.5181 | Acc(G)=0.0450 | Acc(P)=0.4274 | F1(P)=0.3066 | Time=36.3s
+[CLIENT-0-SCAFFOLD]   Round 3 | Loss=6.4780 | Acc(G)=0.0436 | Acc(P)=0.6025 | F1(P)=0.3875 | Time=38.5s
+[CLIENT-0-SCAFFOLD]   Round 4 | Loss=6.5108 | Acc(G)=0.1902 | Acc(P)=0.8790 | F1(P)=0.5058 | Time=39.1s
+[CLIENT-0-SCAFFOLD]   Round 5 | Loss=6.4771 | Acc(G)=0.0795 | Acc(P)=0.9577 | F1(P)=0.5846 | Time=36.6s
+[CLIENT-0-SCAFFOLD]   Round 6 | Loss=6.5093 | Acc(G)=0.2418 | Acc(P)=0.9749 | F1(P)=0.6242 | Time=36.5s
+[CLIENT-0-SCAFFOLD]   Round 7 | Loss=6.4774 | Acc(G)=0.1115 | Acc(P)=0.9839 | F1(P)=0.6807 | Time=37.3s
+[CLIENT-0-SCAFFOLD]   Round 8 | Loss=6.5069 | Acc(G)=0.2316 | Acc(P)=0.9778 | F1(P)=0.6492 | Time=37.0s
+[CLIENT-0-SCAFFOLD]   Round 9 | Loss=6.4765 | Acc(G)=0.1224 | Acc(P)=0.9748 | F1(P)=0.6305 | Time=36.8s
+[CLIENT-0-SCAFFOLD]   Round 10 | Loss=6.5065 | Acc(G)=0.2403 | Acc(P)=0.9857 | F1(P)=0.6957 | Time=37.5s
+[CLIENT-0-SCAFFOLD]   Round 11 | Loss=6.4762 | Acc(G)=0.1357 | Acc(P)=0.9868 | F1(P)=0.6973 | Time=37.0s
+[CLIENT-0-SCAFFOLD]   Round 12 | Loss=6.5055 | Acc(G)=0.2449 | Acc(P)=0.9870 | F1(P)=0.6986 | Time=36.5s
+[CLIENT-0-SCAFFOLD]   Round 13 | Loss=6.4763 | Acc(G)=0.1577 | Acc(P)=0.9872 | F1(P)=0.7003 | Time=37.0s
+[CLIENT-0-SCAFFOLD]   Round 14 | Loss=6.5043 | Acc(G)=0.2557 | Acc(P)=0.9915 | F1(P)=0.7525 | Time=52.3s
+[CLIENT-0-SCAFFOLD]   Round 15 | Loss=6.4764 | Acc(G)=0.1706 | Acc(P)=0.9861 | F1(P)=0.6984 | Time=57.3s
+[CLIENT-0-SCAFFOLD]   Round 16 | Loss=6.5045 | Acc(G)=0.2615 | Acc(P)=0.9875 | F1(P)=0.7116 | Time=36.1s
+[CLIENT-0-SCAFFOLD]   Round 17 | Loss=6.4761 | Acc(G)=0.2038 | Acc(P)=0.9894 | F1(P)=0.7326 | Time=36.5s
+[CLIENT-0-SCAFFOLD]   Round 18 | Loss=6.5045 | Acc(G)=0.2677 | Acc(P)=0.9910 | F1(P)=0.7537 | Time=37.1s
+[CLIENT-0-SCAFFOLD]   Round 19 | Loss=6.4759 | Acc(G)=0.2403 | Acc(P)=0.9937 | F1(P)=0.7986 | Time=37.0s
+[CLIENT-0-SCAFFOLD]   Round 20 | Loss=6.5027 | Acc(G)=0.2924 | Acc(P)=0.9894 | F1(P)=0.7242 | Time=37.5s
+[CLIENT-0-SCAFFOLD]   Round 21 | Loss=6.4752 | Acc(G)=0.2785 | Acc(P)=0.9921 | F1(P)=0.7612 | Time=37.7s
+[CLIENT-0-SCAFFOLD]   Round 22 | Loss=6.5029 | Acc(G)=0.2992 | Acc(P)=0.9921 | F1(P)=0.7620 | Time=36.9s
+[CLIENT-0-SCAFFOLD]   Round 23 | Loss=6.4759 | Acc(G)=0.3238 | Acc(P)=0.9913 | F1(P)=0.7586 | Time=36.7s
+[CLIENT-0-SCAFFOLD]   Round 24 | Loss=6.5025 | Acc(G)=0.3186 | Acc(P)=0.9951 | F1(P)=0.8201 | Time=38.3s
+[CLIENT-0-SCAFFOLD]   Round 25 | Loss=6.4758 | Acc(G)=0.3718 | Acc(P)=0.9945 | F1(P)=0.8142 | Time=37.1s
+[CLIENT-0-SCAFFOLD]   Round 26 | Loss=6.5020 | Acc(G)=0.3419 | Acc(P)=0.9961 | F1(P)=0.8536 | Time=36.9s
+[CLIENT-0-SCAFFOLD]   Round 27 | Loss=6.4756 | Acc(G)=0.4228 | Acc(P)=0.9889 | F1(P)=0.7270 | Time=45.9s
+[CLIENT-0-SCAFFOLD]   Round 28 | Loss=6.5009 | Acc(G)=0.3659 | Acc(P)=0.9920 | F1(P)=0.7687 | Time=37.9s
+[CLIENT-0-SCAFFOLD]   Round 29 | Loss=6.4750 | Acc(G)=0.4930 | Acc(P)=0.9943 | F1(P)=0.8092 | Time=37.9s
+[CLIENT-0-SCAFFOLD]   Round 30 | Loss=6.5010 | Acc(G)=0.3891 | Acc(P)=0.9969 | F1(P)=0.8759 | Time=38.3s
+[CLIENT-0-SCAFFOLD]   Round 31 | Loss=6.4753 | Acc(G)=0.5558 | Acc(P)=0.9948 | F1(P)=0.8119 | Time=38.3s
+[CLIENT-0-SCAFFOLD]   Round 32 | Loss=6.5014 | Acc(G)=0.4232 | Acc(P)=0.9942 | F1(P)=0.7994 | Time=38.8s
+[CLIENT-0-SCAFFOLD]   Round 33 | Loss=6.4748 | Acc(G)=0.5972 | Acc(P)=0.9942 | F1(P)=0.8081 | Time=39.8s
+[CLIENT-0-SCAFFOLD]   Round 34 | Loss=6.5000 | Acc(G)=0.4565 | Acc(P)=0.9952 | F1(P)=0.8200 | Time=37.8s
+[CLIENT-0-SCAFFOLD]   Round 35 | Loss=6.4753 | Acc(G)=0.6389 | Acc(P)=0.9950 | F1(P)=0.8156 | Time=60.2s
+[CLIENT-0-SCAFFOLD]   Round 36 | Loss=6.4996 | Acc(G)=0.4993 | Acc(P)=0.9920 | F1(P)=0.7589 | Time=91.0s
+[CLIENT-0-SCAFFOLD]   Round 37 | Loss=6.4750 | Acc(G)=0.6999 | Acc(P)=0.9965 | F1(P)=0.8640 | Time=88.9s
+[CLIENT-0-SCAFFOLD]   Round 38 | Loss=6.4992 | Acc(G)=0.5305 | Acc(P)=0.9933 | F1(P)=0.7910 | Time=43.7s
+[CLIENT-0-SCAFFOLD]   Round 39 | Loss=6.4746 | Acc(G)=0.7339 | Acc(P)=0.9910 | F1(P)=0.7542 | Time=36.9s
+[CLIENT-0-SCAFFOLD]   Round 40 | Loss=6.4981 | Acc(G)=0.5876 | Acc(P)=0.9966 | F1(P)=0.8604 | Time=85.2s
+[CLIENT-0-SCAFFOLD]   Round 41 | Loss=6.4743 | Acc(G)=0.8221 | Acc(P)=0.9922 | F1(P)=0.7710 | Time=89.0s
+[CLIENT-0-SCAFFOLD]   Round 42 | Loss=6.4979 | Acc(G)=0.6373 | Acc(P)=0.9947 | F1(P)=0.8103 | Time=88.5s
+[CLIENT-0-SCAFFOLD]   Round 43 | Loss=6.4748 | Acc(G)=0.8533 | Acc(P)=0.9975 | F1(P)=0.8861 | Time=91.9s
+[CLIENT-0-SCAFFOLD]   Round 44 | Loss=6.4980 | Acc(G)=0.7167 | Acc(P)=0.9930 | F1(P)=0.7758 | Time=80.5s
+[CLIENT-0-SCAFFOLD]   Round 45 | Loss=6.4742 | Acc(G)=0.8883 | Acc(P)=0.9940 | F1(P)=0.7940 | Time=90.6s
+[CLIENT-0-SCAFFOLD]   Round 46 | Loss=6.4981 | Acc(G)=0.7588 | Acc(P)=0.9973 | F1(P)=0.8870 | Time=95.6s
+[CLIENT-0-SCAFFOLD]   Round 47 | Loss=6.4737 | Acc(G)=0.9017 | Acc(P)=0.9944 | F1(P)=0.8037 | Time=87.0s
+[CLIENT-0-SCAFFOLD]   Round 48 | Loss=6.4965 | Acc(G)=0.7975 | Acc(P)=0.9941 | F1(P)=0.7972 | Time=92.8s
+[CLIENT-0-SCAFFOLD]   Round 49 | Loss=6.4736 | Acc(G)=0.9192 | Acc(P)=0.9938 | F1(P)=0.7900 | Time=91.9s
+[CLIENT-0-SCAFFOLD]   Round 50 | Loss=6.4975 | Acc(G)=0.8068 | Acc(P)=0.9953 | F1(P)=0.8250 | Time=91.6s
+[CLIENT-0-SCAFFOLD]   Round 51 | Loss=6.4742 | Acc(G)=0.9266 | Acc(P)=0.9965 | F1(P)=0.8542 | Time=93.5s
+[CLIENT-0-SCAFFOLD]   Round 52 | Loss=6.4958 | Acc(G)=0.8509 | Acc(P)=0.9949 | F1(P)=0.8153 | Time=84.4s
+[CLIENT-0-SCAFFOLD]   Round 53 | Loss=6.4735 | Acc(G)=0.9315 | Acc(P)=0.9960 | F1(P)=0.8417 | Time=91.9s
+[CLIENT-0-SCAFFOLD]   Round 54 | Loss=6.4958 | Acc(G)=0.8486 | Acc(P)=0.9940 | F1(P)=0.7954 | Time=80.2s
+[CLIENT-0-SCAFFOLD]   Round 55 | Loss=6.4733 | Acc(G)=0.9358 | Acc(P)=0.9947 | F1(P)=0.8090 | Time=91.1s
+[CLIENT-0-SCAFFOLD]   Round 56 | Loss=6.4958 | Acc(G)=0.8735 | Acc(P)=0.9958 | F1(P)=0.8371 | Time=94.2s
+[CLIENT-0-SCAFFOLD]   Round 57 | Loss=6.4735 | Acc(G)=0.9349 | Acc(P)=0.9948 | F1(P)=0.8101 | Time=94.5s
+[CLIENT-0-SCAFFOLD]   Round 58 | Loss=6.4959 | Acc(G)=0.8547 | Acc(P)=0.9956 | F1(P)=0.8314 | Time=76.2s
+[CLIENT-0-SCAFFOLD]   Round 59 | Loss=6.4733 | Acc(G)=0.9348 | Acc(P)=0.9979 | F1(P)=0.9033 | Time=36.2s
+[CLIENT-0-SCAFFOLD]   Round 60 | Loss=6.4960 | Acc(G)=0.8676 | Acc(P)=0.9961 | F1(P)=0.8426 | Time=37.8s
+[CLIENT-0-SCAFFOLD]   Round 61 | Loss=6.4733 | Acc(G)=0.9361 | Acc(P)=0.9973 | F1(P)=0.8827 | Time=38.3s
+[CLIENT-0-SCAFFOLD]   Round 62 | Loss=6.4956 | Acc(G)=0.8618 | Acc(P)=0.9975 | F1(P)=0.8960 | Time=39.0s
+[CLIENT-0-SCAFFOLD]   Round 63 | Loss=6.4733 | Acc(G)=0.9343 | Acc(P)=0.9951 | F1(P)=0.8282 | Time=39.0s
+[CLIENT-0-SCAFFOLD]   Round 64 | Loss=6.4947 | Acc(G)=0.8535 | Acc(P)=0.9978 | F1(P)=0.8995 | Time=40.5s
+[CLIENT-0-SCAFFOLD]   Round 65 | Loss=6.4735 | Acc(G)=0.9336 | Acc(P)=0.9906 | F1(P)=0.7478 | Time=41.0s
+[CLIENT-0-SCAFFOLD]   Round 66 | Loss=6.4952 | Acc(G)=0.8681 | Acc(P)=0.9938 | F1(P)=0.7994 | Time=40.6s
+[CLIENT-0-SCAFFOLD]   Round 67 | Loss=6.4734 | Acc(G)=0.9375 | Acc(P)=0.9967 | F1(P)=0.8697 | Time=41.0s
+[CLIENT-0-SCAFFOLD]   Round 68 | Loss=6.4946 | Acc(G)=0.8539 | Acc(P)=0.9978 | F1(P)=0.9035 | Time=41.8s
+[CLIENT-0-SCAFFOLD]   Round 69 | Loss=6.4736 | Acc(G)=0.9376 | Acc(P)=0.9940 | F1(P)=0.8047 | Time=41.5s
+[CLIENT-0-SCAFFOLD]   Round 70 | Loss=6.4936 | Acc(G)=0.8695 | Acc(P)=0.9941 | F1(P)=0.8054 | Time=42.3s
+[CLIENT-0-SCAFFOLD]   Round 71 | Loss=6.4734 | Acc(G)=0.9340 | Acc(P)=0.9951 | F1(P)=0.8266 | Time=42.5s
+[CLIENT-0-SCAFFOLD]   Round 72 | Loss=6.4938 | Acc(G)=0.8625 | Acc(P)=0.9979 | F1(P)=0.9077 | Time=43.9s
+[CLIENT-0-SCAFFOLD]   Round 73 | Loss=6.4734 | Acc(G)=0.9389 | Acc(P)=0.9968 | F1(P)=0.8648 | Time=42.8s
+[CLIENT-0-SCAFFOLD]   Round 74 | Loss=6.4938 | Acc(G)=0.8600 | Acc(P)=0.9946 | F1(P)=0.8160 | Time=43.7s
+[CLIENT-0-SCAFFOLD]   Round 75 | Loss=6.4736 | Acc(G)=0.9349 | Acc(P)=0.9954 | F1(P)=0.8245 | Time=43.4s
+[CLIENT-0-SCAFFOLD]   Round 76 | Loss=6.4943 | Acc(G)=0.8653 | Acc(P)=0.9955 | F1(P)=0.8288 | Time=43.7s
+[CLIENT-0-SCAFFOLD]   Round 77 | Loss=6.4734 | Acc(G)=0.9366 | Acc(P)=0.9957 | F1(P)=0.8349 | Time=43.2s
+[CLIENT-0-SCAFFOLD]   Round 78 | Loss=6.4933 | Acc(G)=0.8651 | Acc(P)=0.9943 | F1(P)=0.8020 | Time=44.4s
+[CLIENT-0-SCAFFOLD]   Round 79 | Loss=6.4739 | Acc(G)=0.9369 | Acc(P)=0.9965 | F1(P)=0.8547 | Time=43.6s
+[CLIENT-0-SCAFFOLD]   Round 80 | Loss=6.4934 | Acc(G)=0.8552 | Acc(P)=0.9954 | F1(P)=0.8263 | Time=46.0s
+[CLIENT-0-SCAFFOLD]   Round 81 | Loss=6.4735 | Acc(G)=0.9354 | Acc(P)=0.9963 | F1(P)=0.8502 | Time=44.4s
+[CLIENT-0-SCAFFOLD]   Round 82 | Loss=6.4933 | Acc(G)=0.8738 | Acc(P)=0.9917 | F1(P)=0.7561 | Time=48.7s
+[CLIENT-0-SCAFFOLD]   Round 83 | Loss=6.4739 | Acc(G)=0.9383 | Acc(P)=0.9981 | F1(P)=0.9169 | Time=45.9s
+[CLIENT-0-SCAFFOLD]   Round 84 | Loss=6.4932 | Acc(G)=0.8641 | Acc(P)=0.9969 | F1(P)=0.8681 | Time=42.6s
+[CLIENT-0-SCAFFOLD]   Round 85 | Loss=6.4734 | Acc(G)=0.9365 | Acc(P)=0.9943 | F1(P)=0.8020 | Time=45.0s
+[CLIENT-0-SCAFFOLD]   Round 86 | Loss=6.4922 | Acc(G)=0.8738 | Acc(P)=0.9978 | F1(P)=0.8973 | Time=46.2s
+[CLIENT-0-SCAFFOLD]   Round 87 | Loss=6.4734 | Acc(G)=0.9357 | Acc(P)=0.9958 | F1(P)=0.8443 | Time=47.3s
+[CLIENT-0-SCAFFOLD]   Round 88 | Loss=6.4928 | Acc(G)=0.8773 | Acc(P)=0.9975 | F1(P)=0.8943 | Time=46.9s
+[CLIENT-0-SCAFFOLD]   Round 89 | Loss=6.4737 | Acc(G)=0.9381 | Acc(P)=0.9965 | F1(P)=0.8633 | Time=46.9s
+[CLIENT-0-SCAFFOLD]   Round 90 | Loss=6.4931 | Acc(G)=0.8650 | Acc(P)=0.9967 | F1(P)=0.8693 | Time=46.1s
+[CLIENT-0-SCAFFOLD]   Round 91 | Loss=6.4738 | Acc(G)=0.9325 | Acc(P)=0.9970 | F1(P)=0.8713 | Time=44.9s
+[CLIENT-0-SCAFFOLD]   Round 92 | Loss=6.4929 | Acc(G)=0.8662 | Acc(P)=0.9980 | F1(P)=0.9120 | Time=44.8s
+[CLIENT-0-SCAFFOLD]   Round 93 | Loss=6.4730 | Acc(G)=0.9374 | Acc(P)=0.9974 | F1(P)=0.8849 | Time=44.2s
+[CLIENT-0-SCAFFOLD]   Round 94 | Loss=6.4932 | Acc(G)=0.8797 | Acc(P)=0.9950 | F1(P)=0.8156 | Time=45.5s
+[CLIENT-0-SCAFFOLD]   Round 95 | Loss=6.4727 | Acc(G)=0.9380 | Acc(P)=0.9952 | F1(P)=0.8209 | Time=41.8s
+[CLIENT-0-SCAFFOLD]   Round 96 | Loss=6.4931 | Acc(G)=0.8626 | Acc(P)=0.9982 | F1(P)=0.9182 | Time=44.8s
+[CLIENT-0-SCAFFOLD]   Round 97 | Loss=6.4734 | Acc(G)=0.9365 | Acc(P)=0.9953 | F1(P)=0.8229 | Time=46.2s
+[CLIENT-0-SCAFFOLD]   Round 98 | Loss=6.4920 | Acc(G)=0.8671 | Acc(P)=0.9974 | F1(P)=0.8915 | Time=44.5s
+[CLIENT-0-SCAFFOLD]   Round 99 | Loss=6.4735 | Acc(G)=0.9366 | Acc(P)=0.9961 | F1(P)=0.8450 | Time=45.1s
+[CLIENT-0-SCAFFOLD]   Round 100 | Loss=6.4923 | Acc(G)=0.8787 | Acc(P)=0.9968 | F1(P)=0.8658 | Time=46.8s
+[CLIENT-0-SCAFFOLD] Received SHUTDOWN. Training complete.
+[CLIENT-0-SCAFFOLD] Client done.

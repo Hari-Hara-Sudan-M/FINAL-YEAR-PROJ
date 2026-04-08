@@ -1,0 +1,27 @@
+[SERVER-SCAFFOLD] Run started at: 2026-03-25 10:48:54
+[SERVER-SCAFFOLD] Run ID: 20260325_104854
+[SERVER-SCAFFOLD] Log file: results\scaffold_multiclass_supcon\logs\server_20260325_104854.log
+[SERVER-SCAFFOLD] Contrastive mode: supcon
+[SERVER-SCAFFOLD] SCAFFOLD Server listening on 0.0.0.0:9999
+[SERVER-SCAFFOLD] Waiting for 2 clients...
+[SERVER-SCAFFOLD]   Client 0 registered from ('127.0.0.1', 64957)
+[SERVER-SCAFFOLD]   Client 1 registered from ('127.0.0.1', 64958)
+[SERVER-SCAFFOLD] All 2 clients connected. Starting SCAFFOLD training...
+[SERVER-SCAFFOLD] =================================================================
+[SERVER-SCAFFOLD] Round  10/100 | SupCon=6.7887 | CE=2.7113 | Acc_L=0.0781 | Acc_P=0.6500 | F1_P=0.2091 | BMTA_P=0.7250 | 39.6s
+[SERVER-SCAFFOLD] Round  20/100 | SupCon=6.7909 | CE=2.8615 | Acc_L=0.0788 | Acc_P=0.8989 | F1_P=0.3485 | BMTA_P=0.8989 | 40.3s
+[SERVER-SCAFFOLD] Round  30/100 | SupCon=6.7939 | CE=2.8075 | Acc_L=0.0779 | Acc_P=0.8750 | F1_P=0.3572 | BMTA_P=0.9260 | 40.8s
+[SERVER-SCAFFOLD] Round  40/100 | SupCon=6.7920 | CE=2.7221 | Acc_L=0.0782 | Acc_P=0.8818 | F1_P=0.3659 | BMTA_P=0.9260 | 41.5s
+[SERVER-SCAFFOLD] Round  50/100 | SupCon=6.7965 | CE=2.8160 | Acc_L=0.0777 | Acc_P=0.8793 | F1_P=0.3686 | BMTA_P=0.9260 | 41.7s
+[SERVER-SCAFFOLD] Round  60/100 | SupCon=6.7960 | CE=2.8354 | Acc_L=0.0781 | Acc_P=0.8605 | F1_P=0.3759 | BMTA_P=0.9260 | 41.5s
+[SERVER-SCAFFOLD] Round  70/100 | SupCon=6.7951 | CE=2.6781 | Acc_L=0.0790 | Acc_P=0.8814 | F1_P=0.3641 | BMTA_P=0.9260 | 42.0s
+[SERVER-SCAFFOLD] Round  80/100 | SupCon=6.8017 | CE=2.8070 | Acc_L=0.0786 | Acc_P=0.8866 | F1_P=0.4090 | BMTA_P=0.9260 | 42.2s
+[SERVER-SCAFFOLD] Round  90/100 | SupCon=6.8007 | CE=2.8205 | Acc_L=0.0813 | Acc_P=0.8917 | F1_P=0.4047 | BMTA_P=0.9260 | 42.0s
+[SERVER-SCAFFOLD] Round 100/100 | SupCon=6.8028 | CE=2.7782 | Acc_L=0.0801 | Acc_P=0.8802 | F1_P=0.4021 | BMTA_P=0.9260 | 43.5s
+[SERVER-SCAFFOLD] =================================================================
+[SERVER-SCAFFOLD] SCAFFOLD + PERSONALIZATION TRAINING COMPLETE
+[SERVER-SCAFFOLD]   BMTA (Local):        0.1919
+[SERVER-SCAFFOLD]   BMTA (Personalized): 0.9260
+[SERVER-SCAFFOLD]   Final checkpoint saved.
+[SERVER-SCAFFOLD]   History saved: results\scaffold_multiclass_supcon\logs\training_history_20260325_104854.csv
+[SERVER-SCAFFOLD] Server shut down cleanly.

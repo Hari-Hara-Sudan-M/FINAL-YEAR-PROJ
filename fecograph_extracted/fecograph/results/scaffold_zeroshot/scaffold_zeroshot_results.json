@@ -1,0 +1,49 @@
+{
+  "seen_accuracy": 0.8613863060016906,
+  "seen_precision": 0.1650621123341688,
+  "seen_recall": 0.3607929711705047,
+  "seen_f1": 0.1772178670147781,
+  "novelty_precision": 0.0003380281690140845,
+  "novelty_recall": 1.0,
+  "novelty_f1": 0.0006758278891642261,
+  "combined_accuracy": 0.5259892831183759,
+  "optimal_threshold": 0.8500000000000003,
+  "seen_sim_mean": 0.8551415801048279,
+  "seen_sim_std": 0.06713138520717621,
+  "unseen_sim_mean": 0.8237625360488892,
+  "unseen_sim_std": 0.030643075704574585,
+  "num_seen_samples": 59150,
+  "num_unseen_samples": 9,
+  "seen_classes": [
+    0,
+    1,
+    4,
+    6,
+    7,
+    8,
+    12,
+    14
+  ],
+  "holdout_classes": [
+    9,
+    10,
+    11
+  ],
+  "holdout_class_names": [
+    "DoS-SlowHTTPTest",
+    "DoS-Slowloris",
+    "FTP-BruteForce"
+  ],
+  "seen_class_names": [
+    "Benign",
+    "Bot",
+    "DDoS-HOIC",
+    "DDoS-LOIC-HTTP",
+    "DoS-GoldenEye",
+    "DoS-Hulk",
+    "Infilteration",
+    "SSH-Bruteforce"
+  ],
+  "training_rounds": 50,
+  "best_seen_accuracy_during_training": 8.59648117370623e-05
+}
